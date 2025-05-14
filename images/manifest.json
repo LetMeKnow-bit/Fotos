@@ -7,5 +7,87 @@
             "All images loaded in LetMeKnow-bit/Fotos project"
         ]
     },
-    "items": []
+    "items": [
+        {
+            "id": "https://LetMeKnow-bit.github.io/Fotos/images/IMG_8211/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "IMG_8211"
+                ]
+            },
+            "height": 825,
+            "width": 1000,
+            "items": [
+                {
+                    "id": "https://LetMeKnow-bit.github.io/Fotos/images/IMG_8211/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://LetMeKnow-bit.github.io/Fotos/images/IMG_8211/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://LetMeKnow-bit.github.io/Fotos/images/IMG_8211/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 32,
+                                                "height": 26
+                                            },
+                                            {
+                                                "width": 63,
+                                                "height": 52
+                                            },
+                                            {
+                                                "width": 125,
+                                                "height": 104
+                                            },
+                                            {
+                                                "width": 250,
+                                                "height": 207
+                                            },
+                                            {
+                                                "width": 500,
+                                                "height": 413
+                                            },
+                                            {
+                                                "width": 1000,
+                                                "height": 825
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1000,
+                                        "@id": "https://LetMeKnow-bit.github.io/Fotos/images/IMG_8211",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 825,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://LetMeKnow-bit.github.io/Fotos/images/IMG_8211/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
